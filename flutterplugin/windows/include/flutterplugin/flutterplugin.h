@@ -1,0 +1,3 @@
+#include "flutterplugin_plugin_c_api.h"
+
+#define FlutterpluginRegisterWithRegistrar FlutterpluginPluginCApiRegisterWithRegistrar
