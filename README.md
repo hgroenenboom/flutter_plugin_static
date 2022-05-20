@@ -5,3 +5,6 @@ Normally flutter plugins are always dynamically linked by the flutter environmen
 ### running the flutterapp
 first install flutter and then execute `flutter run -d windows` in the `flutterapp` folder.
 Or simple run the `run.ps1` script or inspect the script for more details.
+
+### limitations
+currently Windows only, purely because I've only worked on this with a windows device
