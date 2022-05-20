@@ -21,7 +21,7 @@ list(APPEND PLUGIN_SOURCES
 
 # Define the plugin library target. Its name must not be changed (see comment
 # on PLUGIN_NAME above).
-add_library(${PLUGIN_NAME} SHARED
+add_library(${PLUGIN_NAME} STATIC
   "include/flutterplugin/flutterplugin_plugin_c_api.h"
   "flutterplugin_plugin_c_api.cpp"
   ${PLUGIN_SOURCES}

@@ -24,7 +24,7 @@ class Flutterplugin {
   {
     assert(Platform.isWindows);
 
-    flutterpluginLib = DynamicLibrary.open('flutterplugin_plugin.dll');
+    flutterpluginLib = DynamicLibrary.executable();
     assert(flutterpluginLib.providesSymbol('flutterplugin_native_cpp_hello_world'));
   }
 
