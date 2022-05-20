@@ -66,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     Flutterplugin plugin = new Flutterplugin();
     print(plugin.test());
+    print(plugin.hello_world());
 
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.

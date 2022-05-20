@@ -16,6 +16,7 @@ set(PLUGIN_NAME "flutterplugin_plugin")
 list(APPEND PLUGIN_SOURCES
   "flutterplugin_plugin.cpp"
   "flutterplugin_plugin.h"
+  "lib/native_cpp_file.cpp"
 )
 
 # Define the plugin library target. Its name must not be changed (see comment
